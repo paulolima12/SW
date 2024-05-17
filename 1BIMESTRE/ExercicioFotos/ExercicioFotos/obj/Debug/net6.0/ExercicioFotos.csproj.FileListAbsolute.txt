@@ -1,0 +1,14 @@
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\bin\Debug\net6.0\ExercicioFotos.exe
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\bin\Debug\net6.0\ExercicioFotos.deps.json
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\bin\Debug\net6.0\ExercicioFotos.runtimeconfig.json
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\bin\Debug\net6.0\ExercicioFotos.dll
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\bin\Debug\net6.0\ExercicioFotos.pdb
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.AssemblyInfoInputs.cache
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.AssemblyInfo.cs
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.dll
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\refint\ExercicioFotos.dll
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.pdb
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ExercicioFotos.genruntimeconfig.cache
+C:\Users\Paulo\Desktop\Exercicios\ExercicioFotos\ExercicioFotos\obj\Debug\net6.0\ref\ExercicioFotos.dll

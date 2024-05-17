@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lampada", "Lampada\Lampada.csproj", "{3283A8EB-6D89-4B97-9D1E-3223031AF86C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3283A8EB-6D89-4B97-9D1E-3223031AF86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3283A8EB-6D89-4B97-9D1E-3223031AF86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3283A8EB-6D89-4B97-9D1E-3223031AF86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3283A8EB-6D89-4B97-9D1E-3223031AF86C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97E71E2E-4947-4B95-BED1-A1C4F45DD5A4}
+	EndGlobalSection
+EndGlobal
