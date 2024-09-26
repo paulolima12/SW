@@ -1,71 +1,69 @@
 <?php
-    session_start();
-    if((!isset($_SESSION['id']) == true) and (!isset($_SESSION['nome']) == true) and (!isset($_SESSION['email']) == true)){
-        unset($_SESSION['id']);
-        unset($_SESSION['nome']);
-        unset($_SESSION['email']);
-        header('Location: ../index.html');
-    }
-
-
     include 'conecta.php';
+
     include 'menu.php';
 ?>
-
-
+        <title>Cadastro Clientes teste</title>
 
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Dashboard</h1>
+                        <h1 class="mt-4">Clientes</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">
-                                <a class="btn btn-success" href="insere_cliente.php">INSERIR NOVO CLIENTE</a>
-                            </li>
-                        </ol>                        
+                            <li class="breadcrumb-item active"> <a class="btn btn-success" href="insere_cliente.php">INSERIR CLIENTE</a></li>
+                        </ol>
+                        
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                                DataTable Example
+                                Clientes
                             </div>
                             <div class="card-body">
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>NOME</th>
-                                            <th>E-MAIL</th>
-                                            <th>TELEFONE</th>
-                                            <th>OPÇÕES</th>                                            
+                                            <th>Nome</th>
+                                            <th>E-mail</th>
+                                            <th>Telefone</th>
+                                            <th>Opções</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
                                             <th>ID</th>
-                                            <th>NOME</th>
-                                            <th>E-MAIL</th>
-                                            <th>TELEFONE</th>
-                                            <th>OPÇÕES</th> 
+                                            <th>Nome</th>
+                                            <th>E-mail</th>
+                                            <th>Telefone</th>
+                                            <th>Opções</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                    <?php
-                                        $sql = "SELECT * FROM clientes";
-                                        $consulta = $conexao->query($sql);
-                                        while($dados = $consulta->fetch_assoc()){
-                                            echo "<tr>";
-                                            echo "<td>".$dados['id_cliente']."</td>";
-                                            echo "<td>".$dados['nome_cliente']."</td>";
-                                            echo "<td>".$dados['email_cliente']."</td>";
-                                            echo "<td>".$dados['telefone']."</td>";
-                                            echo "<td>
-                                                <a class='btn btn-info' href='atualiza_cliente.php'>ATUALIZAR</a>
-                                                <a class='btn btn-danger' href=''>APAGAR</a>
-                                            </td>";
-                                            echo "</tr>";
-                                        }
-                                    ?>
-                                        
+
+                                        <?php
+
+                                            $sql = "SELECT * FROM clientes";
+                                            $consulta = $conexao->query($sql);
+
+                                            //fetch_assoc() associa os registros com seus vetores, pelos indices
+                                            
+                                            while($dados = $consulta->fetch_assoc()){
+                                                echo "<tr>";
+
+                                                //pega pelo indice dele
+                                                echo "<td>".$dados['id_cliente']."</td>";
+                                                echo "<td>".$dados['nome_cliente']."</td>";
+                                                echo "<td>".$dados['email_cliente']."</td>";
+                                                echo "<td>".$dados['telefone']."</td>";
+                                                echo "<td>
+                                                    <a class='btn btn-info' href='atualiza_cliente.php'>ATUALIZAR</a>
+                                                    <a class='btn btn-danger' href=''>APAGAR</a>
+                                                </td>";
+
+                                                echo "</tr>";
+                                            }
+
+                                        ?>
                                         
                                     </tbody>
                                 </table>

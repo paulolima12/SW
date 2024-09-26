@@ -3,27 +3,32 @@
 
     include 'menu.php';
 ?>
+        <title>Inserir Clientes</title>
+
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">INSERIR NOVO CLIENTE</h1>
-                                               
+                        <h1 class="mt-4">Inserir Clientes</h1>
+                                                
                         <div class="card mb-4">
-                            <form>
-                                <div class="mb-3">
-                                    <label class="form-label">Nome</label>
-                                    <input type="text" class="form-control">                                    
-                                </div>
-                                <div class="mb-3">
-                                    <label class="form-label">Email</label>
-                                    <input type="email" class="form-control">                                    
-                                </div>
-                                <div class="mb-3">
-                                    <label class="form-label">Telefone</label>
-                                    <input type="text" class="form-control">                                    
-                                </div>                                
-                                <button type="submit" class="btn btn-primary">CADASTRAR</button>
-                            </form>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Nome</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Telefone</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Inserir</button>
+                        </form>
                         </div>
                     </div>
                 </main>
